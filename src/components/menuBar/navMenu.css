@@ -1,0 +1,42 @@
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 41px;
+    height: 121px;
+    /* background-color: aqua; */
+
+}
+.menu_item li{
+    display: inline-block;
+    padding: 20px;
+}
+.menu_item li a{
+    color: black;
+    font-size: 16px;
+}
+.enrol_btn{
+    background-color: var(--primary-color);
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    height: 48px;
+    width: 136px;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+}
+.cart{
+    color: black;
+    font-size: 13px;
+}
+.menu_item ul{
+    position: relative;
+}
+.arrow_down{
+    font-size: 25px;
+    position: absolute;
+    top: 18px;
+}
+.menu_item a{
+    text-decoration: none;
+}

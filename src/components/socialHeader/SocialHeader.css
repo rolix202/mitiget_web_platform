@@ -1,0 +1,19 @@
+.social_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DD127B;
+    padding: 15px 41px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.login_text, .login_text a, .tell_no{
+    color: white;
+}
+
+.social_icons a{
+    padding-left: 18px;
+    color: white;
+}
+.tell_no{
+    margin-right: 30px;
+}

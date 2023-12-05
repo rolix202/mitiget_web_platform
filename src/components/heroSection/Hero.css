@@ -1,0 +1,63 @@
+.hero_section {
+    background-color: var(--primary-color);
+    height: 586px;
+    margin-bottom: 100px;
+    position: relative; /* Ensure relative positioning for absolutely positioned children */
+}
+
+.hero_overlay {
+    position: absolute;
+    inset: 0; /* Shorthand for top, right, bottom, left; covers the entire parent */
+    background: linear-gradient(to right, rgba(244, 0, 126, 0.8),  rgba(221, 18, 123, 0.37), rgba(0,0,0,0));
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero_text_wrapper {
+    position: absolute;
+    margin-top: 194px;
+}
+.hero_text{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    line-height: 55px;
+}
+.hero_subtext{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.hero_btn{
+    height: 54px;
+    width: 230px;
+    border-radius: 6px;
+    border: none;
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+    
+}
+.hero_arrow{
+    position: relative;
+    top: 4px;
+    left: 5px;
+}
+.left_hero_arrow,
+.right_hero_arrow{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 275px;
+}
+.right_hero_arrow{
+    right: 42px;
+}
+.left_hero_arrow{
+    left: 42px;
+}
